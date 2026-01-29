@@ -224,25 +224,3 @@ AppPackages/
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####
-Load earlier comments...
-@vishwasgupta
-vishwasgupta
-commented
-on Feb 9, 2019
-I have checked in all the files bin , suo etc on git. Now each time when I build the solution my dll got updated and git desktop suggest me to checked in those changes. I don't want to checked those (.dll and .pdb files). Can anyone help me here?
-
-@Grauldon
-Grauldon
-commented
-on Apr 20, 2019
-@Genebi Use the ! (Not) operator.
-
-!path/filename
-
-@Grauldon
-Grauldon
-commented
-on Apr 20, 2019
-• 
-@kmorcinek The following commands also work for downloading when using Git for Windows:
-
